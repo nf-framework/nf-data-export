@@ -14,9 +14,9 @@ const __dirname = path.join(path.dirname(decodeURI(new URL(import.meta.url).path
 
 async function init() {
     registerLibDir('xlsx-populate', null, { denyPathReplace: true, minify: 'deny' });
-    registerCustomElementsDir('@nfjs/document-export/components');
+    registerCustomElementsDir('@nfjs/data-export/components');
 
-    web.on('GET', '/api/document_export/getTemplate', (context) => {
+    web.on('GET', '/@nfjs/data-export/getReportTemplate', (context) => {
         const file = `${__dirname}/reportTemplate.xlsx`;
 
         const mimetype = mime.getType(file);

@@ -229,7 +229,7 @@ class PlDataExporter extends PlElement {
     async exportToXls() {
         this.isWait = true;
         let prepData = await this._getDataForExport({ exportMode: 'xls' });
-        let template = await fetch('/api/document_export/getTemplate');
+        let template = await fetch('/@nfjs/data-export/getReportTemplate');
         let templateWorkBook = await XlsxPopulate.fromDataAsync(await template.blob());
         let templateWorkSheet = templateWorkBook.sheet(0);
 
