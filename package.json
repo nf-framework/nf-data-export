@@ -1,7 +1,7 @@
 {
     "name": "@nfjs/data-export",
     "version": "1.0.3",
-    "description": "Core",
+    "description": "Module for export to Excel",
     "license": "MIT",
     "type": "module",
     "main": "index.js",
