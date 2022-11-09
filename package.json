@@ -1,0 +1,29 @@
+{
+    "name": "@nfjs/data-export",
+    "version": "1.0.3",
+    "description": "Core",
+    "license": "MIT",
+    "type": "module",
+    "main": "index.js",
+    "repository": {
+        "url": "https://github.com/nf-framework/nf-data-export.git"
+    },
+    "author": "The NF Project Authors",
+    "contributors": [
+        {
+            "name": "Azat Yamalov",
+            "email": "yamalov.azat@live.com"
+        },
+        {
+            "name": "Dmitry Boikov",
+            "email": "boikovdv@gmail.com"
+        },
+        {
+            "name": "Andrey Maksimov",
+            "email": "andrmaxmail@gmail.com"
+        }
+    ],
+    "dependencies": {
+        "xlsx-populate": "^1.21.0"
+    }
+}
