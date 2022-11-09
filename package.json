@@ -1,6 +1,6 @@
 {
     "name": "@nfjs/data-export",
-    "version": "1.0.3",
+    "version": "1.0.0",
     "description": "Module for export to Excel",
     "license": "MIT",
     "type": "module",
